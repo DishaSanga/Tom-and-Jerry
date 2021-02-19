@@ -4,13 +4,13 @@ var PLAY = 1;
 var END = 0;
 var gameState = 1;;
 function preload() {
-  bgImage = loadImage("images/garden.png")
-  catImg = loadImage("images/cat1.png")
-  mouseImg = loadImage("images/mouse1.png")
-  cat2Img = loadAnimation("images/cat2.png", "images/cat3.png")
-  mouse2Img = loadAnimation("images/mouse2.png", "images/mouse3.png")
-  cat3Img = loadAnimation("images/cat4.png")
-  mouse3Img = loadAnimation("images/mouse4.png")
+  bgImage = loadImage("garden.png")
+  catImg = loadImage("cat1.png")
+  mouseImg = loadImage("mouse1.png")
+  cat2Img = loadAnimation("cat2.png", "cat3.png")
+  mouse2Img = loadAnimation("mouse2.png", "mouse3.png")
+  cat3Img = loadAnimation("cat4.png")
+  mouse3Img = loadAnimation("mouse4.png")
 }
 
 function setup() {
